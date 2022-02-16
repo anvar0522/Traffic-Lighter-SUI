@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E4856BB027BD33100050049E /* Traffic_Lighter_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856BAF27BD33100050049E /* Traffic_Lighter_SUIApp.swift */; };
-		E4856BB227BD33100050049E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856BB127BD33100050049E /* ContentView.swift */; };
 		E4856BB427BD33110050049E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4856BB327BD33110050049E /* Assets.xcassets */; };
 		E4856BB727BD33110050049E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4856BB627BD33110050049E /* Preview Assets.xcassets */; };
+		E4856BBE27BD4F620050049E /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856BBD27BD4F620050049E /* Circle.swift */; };
+		E4856BC027BD510E0050049E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4856BBF27BD510E0050049E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4856BAC27BD33100050049E /* Traffic Lighter SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Lighter SUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4856BAF27BD33100050049E /* Traffic_Lighter_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traffic_Lighter_SUIApp.swift; sourceTree = "<group>"; };
-		E4856BB127BD33100050049E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4856BB327BD33110050049E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4856BB627BD33110050049E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4856BBD27BD4F620050049E /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		E4856BBF27BD510E0050049E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				E4856BAF27BD33100050049E /* Traffic_Lighter_SUIApp.swift */,
-				E4856BB127BD33100050049E /* ContentView.swift */,
+				E4856BBD27BD4F620050049E /* Circle.swift */,
+				E4856BBF27BD510E0050049E /* ContentView.swift */,
 				E4856BB327BD33110050049E /* Assets.xcassets */,
 				E4856BB527BD33110050049E /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4856BB227BD33100050049E /* ContentView.swift in Sources */,
 				E4856BB027BD33100050049E /* Traffic_Lighter_SUIApp.swift in Sources */,
+				E4856BBE27BD4F620050049E /* Circle.swift in Sources */,
+				E4856BC027BD510E0050049E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
